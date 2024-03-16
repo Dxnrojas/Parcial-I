@@ -9,12 +9,10 @@
 
 .background {
     background-image: url(ffb.jpg);
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
     position: absolute;
     z-index: -1;
     width: 100vw;
-    height: 100%;
+    height: 200vh;
 }
 
 .header {
@@ -125,18 +123,27 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 40px;
     
 }
 
 #buscador {
-    margin-top: 36px;
-    /* border: solid black; */
+    display: flex;
     width: 25vw;
     height: 5vh;
-    display: flex;
     border-radius: 30px;
     background-color: transparent;
-
+    border: none;
+    margin-top: 30px;
+    display: flex;
+    background-color: white;
+    border-radius: 30px;
+    height: 5vh;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding-left: 10px;
+    margin-top: 30px;
+    color: #2F4550;
 }
 
 #asd2{
@@ -146,6 +153,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 40px;
      
 }
 
@@ -163,14 +171,8 @@
 
 #btn {
     display: flex;
-    background-color: white;
-    border-radius: 30px;
-    height: 4vh;
     flex-direction: row-reverse;
-    align-items: center;
-    margin-top: 30px;
     padding-left: 10px;
-    
 }
 
 #titulopanaderia{
@@ -223,6 +225,7 @@
      align-items: center;
      gap: 2rem;
      padding: 2rem;
+     margin-top: 60px;
 }
 
 #producto1 {
@@ -288,6 +291,7 @@
     align-items: center;
     gap: 2rem;
     padding: 2rem;
+    margin-top: 60px;
 }
 
 #producto6 {
